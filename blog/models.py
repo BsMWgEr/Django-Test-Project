@@ -8,8 +8,4 @@ class BlogPost(models.Model):
     content = models.TextField(null=True, blank=True)
 
 
-class Blog:
-    title = 'hello world'
-    content = 'something cool'
-
 
